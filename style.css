@@ -1,0 +1,29 @@
+.block {
+    height: 100px;
+    width: 100px;
+    animation: blockanimation 5s infinite;
+  }
+  
+  @keyframes blockanimation {
+    0% {
+      background-color: red;
+      transform: translateY(0) translateX(0);
+    }
+    25% {
+      background-color: blue;
+      transform: translateY(200px) translateX(0);
+    }
+    50% {
+      background-color: green;
+      transform: translateY(200px) translateX(200px);
+    }
+    75% {
+      background-color: yellow;
+      transform: translateY(0) translateX(200px);
+    }
+    100% {
+      background-color: red;
+      transform: translateY(0) translateX(0);
+    }
+  }
+  
